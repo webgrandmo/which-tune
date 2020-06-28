@@ -1,0 +1,21 @@
+.Header {
+    background: rgb(153, 206, 255);
+    padding: 1rem;
+}
+
+.Logo {
+    width: 80px;
+    height: 80px;
+}
+
+.Brand {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #414141;
+}
+@media screen and (min-width: 900px) {
+    .Brand {
+        justify-content: start;
+    }
+}
