@@ -2,6 +2,7 @@ import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import TextField from '@material-ui/core/TextField';
 import MenuItem from '@material-ui/core/MenuItem';
+import Buttons from '../buttons/Button';
 
 const currencies = [
   {
@@ -54,6 +55,7 @@ export default function MultilineTextFields() {
           ))}
         </TextField>
       </div>
+      <Buttons />
     </form>
   );
 }
